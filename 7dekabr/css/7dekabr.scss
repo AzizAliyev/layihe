@@ -1,0 +1,40 @@
+
+.dropdown{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    &:hover{
+        .drop-content{
+            visibility: visible;
+            top: 140%;
+        }
+    }
+   .drop-content{
+       background: yellow;
+       position: absolute;
+       left: -100px;
+       top: 180%;
+       width: 80px;
+       visibility: hidden;
+       transition: 0.5s;
+a{
+    display: block;
+   
+
+}
+   }
+   .drop-content2{
+       
+       width: 600px;
+       background: yellow;
+       padding: 30px 0;
+       .col-lg-2{
+           margin: 0 20px;
+           p{
+               font-size: 10px;
+               font-weight: bold;
+           }
+       }
+   }
+
+}

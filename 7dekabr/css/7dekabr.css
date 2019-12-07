@@ -1,0 +1,41 @@
+.dropdown {
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown:hover .drop-content {
+  visibility: visible;
+  top: 140%;
+}
+
+.dropdown .drop-content {
+  background: yellow;
+  position: absolute;
+  left: -100px;
+  top: 180%;
+  width: 80px;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dropdown .drop-content a {
+  display: block;
+}
+
+.dropdown .drop-content2 {
+  width: 600px;
+  background: yellow;
+  padding: 30px 0;
+}
+
+.dropdown .drop-content2 .col-lg-2 {
+  margin: 0 20px;
+}
+
+.dropdown .drop-content2 .col-lg-2 p {
+  font-size: 10px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=7dekabr.css.map */
